@@ -19,6 +19,8 @@ Modules: CRUD User, Login, Register, pytest, migration
 - Pytest
 
 ## Installation dev
+Create screct key
+`openssl rand -hex 32`
 $ cp env.example .env       // Update
 
 **Option 1:**
