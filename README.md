@@ -38,7 +38,7 @@ $ sudo -u postgres psql
 // Clone project & run
 $ git clone https://github.com/playgroundvina/fastapi-base
 $ cd fastapi-base
-$ virtualenv -p python3 .venv
+$ virtualenv -p python3.8 .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ cp env.example .env       // Update
